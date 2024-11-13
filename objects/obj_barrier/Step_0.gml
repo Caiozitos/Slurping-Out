@@ -15,7 +15,9 @@ if place_meeting(x,y-1,obj_player){
 	if ySpd < 0{
 		obj_player.y += ySpd
 	}
+
 }
 
-
+show_debug_message(obj_player.y)
+show_debug_message(obj_player.ySpd)
 }
